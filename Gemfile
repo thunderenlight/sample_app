@@ -12,7 +12,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer',  platforms: :ruby
+ # gem 'therubyracer',  platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -25,6 +25,21 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+
+# This gem provides reset, typography, grid, forms, ie, and print stylesheets from Blueprint CSS framework version 
+# gem 'blueprint-rails'
+
+# group :assets do
+#      gem 'compass-rails'
+#      # Add any compass extensions here
+#    end
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
+
+# NOTE: The sass-rails gem is included with new Rails applications by default.
+#       Please make sure that it is not already in your Gemfile before uncommenting it.
+# gem 'sass-rails'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
